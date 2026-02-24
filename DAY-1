@@ -1,0 +1,213 @@
+==================================================
+                🔷 JAVA ARRAY NOTES 🔷
+==================================================
+
+1) WHY ARRAY ?
+
+Before Array:
+int a = 10;
+int b = 20;
+int c = 30;
+
+Problem:
+- Too many variables
+- No sequential memory
+- Difficult to manage
+- Hard to use loops
+
+Solution → ARRAY
+
+
+--------------------------------------------------
+2) WHAT IS ARRAY ?
+--------------------------------------------------
+
+Array is a data structure that stores
+multiple values of SAME data type
+in contiguous (sequential) memory location.
+
+Syntax:
+
+datatype[] arrayName;
+
+Example:
+int[] arr;
+
+Memory Allocation:
+arr = new int[5];
+
+OR
+
+int[] arr = new int[5];
+
+
+--------------------------------------------------
+3) MEMORY REPRESENTATION
+--------------------------------------------------
+
+int[] arr = {10,20,30,40};
+
+Index   Value
+-----   -----
+  0      10
+  1      20
+  2      30
+  3      40
+
+✔ Index starts from 0
+✔ Last index = length - 1
+✔ Stored in Heap memory
+✔ Continuous memory allocation
+
+
+--------------------------------------------------
+4) CHARACTERISTICS OF ARRAY
+--------------------------------------------------
+
+1. Homogeneous
+   -> Same data type only.
+
+2. Fixed Size
+   -> Size cannot be changed after creation.
+
+3. Indexed Based
+   -> arr[0], arr[1], arr[2] ...
+
+4. Contiguous Memory
+   -> Elements stored next to each other.
+
+5. Default Values
+   int      -> 0
+   double   -> 0.0
+   boolean  -> false
+   object   -> null
+
+6. Fast Access
+   -> O(1) time complexity.
+
+7. Length Property
+   -> arr.length   (variable, not method)
+
+
+--------------------------------------------------
+5) TYPES OF ARRAYS
+--------------------------------------------------
+
+1) Single Dimensional Array
+2) Multi Dimensional Array
+
+
+--------------------------------------------------
+6) WAYS TO CREATE ARRAY
+--------------------------------------------------
+
+Method 1:
+int[] arr = new int[5];
+
+Method 2:
+int[] arr = {10,20,30,40};
+
+Method 3 (Anonymous Array):
+int[] arr = new int[]{100,200,300};
+
+
+--------------------------------------------------
+7) PROGRAMS
+--------------------------------------------------
+
+1) SUM OF ARRAY
+
+public class SumArray {
+    public static void main(String[] args) {
+
+        int[] arr = {10,20,30,40};
+        int sum = 0;
+
+        for(int num : arr){
+            sum = sum + num;
+        }
+
+        System.out.println("Sum = " + sum);
+    }
+}
+
+
+--------------------------------------------------
+2) REVERSE ARRAY
+--------------------------------------------------
+
+public class ReverseArray {
+    public static void main(String[] args) {
+
+        int[] arr = {10,20,30,40};
+
+        for(int i = arr.length - 1; i >= 0; i--){
+            System.out.print(arr[i] + " ");
+        }
+    }
+}
+
+
+--------------------------------------------------
+3) MINIMUM ELEMENT
+--------------------------------------------------
+
+public class MinArray {
+    public static void main(String[] args) {
+
+        int[] arr = {12,5,78,3,9};
+        int min = arr[0];
+
+        for(int num : arr){
+            if(num < min){
+                min = num;
+            }
+        }
+
+        System.out.println("Minimum = " + min);
+    }
+}
+
+
+--------------------------------------------------
+8) DRAWBACKS OF ARRAY
+--------------------------------------------------
+
+1) Fixed Size
+2) Insertion costly
+3) Deletion costly
+4) No built-in methods
+5) Only same type elements
+
+
+--------------------------------------------------
+9) IMPORTANT EXAM POINTS
+--------------------------------------------------
+
+✔ Array is an object in Java.
+✔ Stored in Heap memory.
+✔ Size is fixed.
+✔ Index starts from 0.
+✔ Access time is O(1).
+✔ Out of range → ArrayIndexOutOfBoundsException.
+
+==================================================
+                🔥 FINAL SUMMARY 🔥
+==================================================
+
+ARRAY =
+- Same type elements
+- Continuous memory
+- Fixed size
+- Index based
+- Fast access
+
+==================================================
+
+If you want next:
+1) 2D Array Notes (console style)
+2) 20 Array Practice Programs
+3) Array Interview Questions
+4) Internal Working Diagram Explanation
+
+Tell me 👍
