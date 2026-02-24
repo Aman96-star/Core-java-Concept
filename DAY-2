@@ -1,0 +1,172 @@
+Q6) WAP to find the Maximum Element in the Array
+public class MaxElement {
+    public static void main(String[] args) {
+int[] arr = {12, 45, 7, 89, 34};
+        int max = arr[0];
+        for(int num : arr) {
+            if(num > max) {
+                max = num;
+            }
+        }
+        System.out.println("Maximum Element = " + max);
+    }
+}
+✔ Compare each element
+ ✔ Store the largest value
+Q7) HEAP and STACK Diagram
+Array objects are created in the heap memory.
+Example:
+int[] arr = new int[5];
+HEAP MEMORY
+1000x: ArrayObject [0, 0, 0, 0, 0]
+STACK MEMORY
+arr → 1000x
+//✔ Stack → Reference variable  
+//✔ Heap → Actual Array Object  
+
+//Q8) Modify Array Element
+
+import java.util.Arrays;
+class ArrayElementModification {
+    public static int[] modifyElement(int[] arr) {
+        arr[0] = 100;
+        arr[1] = 200;
+        arr[2] = 300;
+        return arr;
+    }
+}
+public class ArrayExDemo8 {
+    public static void main(String[] args) {
+        int[] val = {10,20,30,40,50};
+        System.out.println("Original Array : " + Arrays.toString(val));
+        int[] modified = ArrayElementModification.modifyElement(val);
+        System.out.println("After Modification : " + Arrays.toString(modifi
+ed));
+        System.out.println("Original Array is : " + Arrays.toString(val));
+    }
+}
+✔ Arrays are passed by reference
+ ✔ Changes reflect in othe riginal array
+Q9) Bubble Sort (Ascending Order)
+import java.util.Arrays;
+
+public class BubbleSortDemo {
+    public static void main(String[] args) {
+        int[] arr = {20, 10, 30, 40, 50, 90};
+        for(int i = 0; i < arr.length; i++) {
+            for(int j = i + 1; j < arr.length; j++) {
+                if(arr[i] > arr[j]) {
+                    int temp = arr[i];
+                    arr[i] = arr[j];
+                    arr[j] = temp;
+                }
+            }
+        }
+        System.out.println("Sorted Array : " + Arrays.toString(arr));
+    }
+}
+✔ Time Complexity → O(n²)
+Q10) Search Element (Linear Search)
+public class SearchElement {
+
+public static void main(String[] args) {
+        int[] arr = {20,30,10,50,90,30};
+        int target = 30;
+        for(int i = 0; i < arr.length; i++) {
+            if(arr[i] == target) {
+                System.out.println("Element found at index : " + i);
+            }
+        }
+    }
+}
+✔ Linear Search → O(n)
+Q11) Find Duplicate Elements
+public class DuplicateDemo {
+
+public static void main(String[] args) {
+        int[] arr = {2,3,9,2,8,7,3,2};
+        for(int i = 0; i < arr.length; i++) {
+            for(int j = i + 1; j < arr.length; j++) {
+                if(arr[i] == arr[j]) {
+                    System.out.println("Duplicate Element : " + arr[i]);
+                }
+            }
+        }
+    }
+}
+✔ Nested Loop → O(n²)
+Q11) Remove Duplicate Elements
+public class RemoveDuplicate {
+
+public static void main(String[] args) {
+        int[] arr = {2,3,9,2,8,7,3,2};
+        for(int i = 0; i < arr.length; i++) {
+            for(int j = i + 1; j < arr.length; j++) {
+                if(arr[i] == arr[j]) {
+                    arr[j] = -1;
+                }
+            }
+        }
+        for(int num : arr) {
+            if(num != -1) {
+                System.out.print(num + " ");
+            }
+        }
+    }
+}
+Q12) Insert Element at Last Position
+import java.util.Arrays;
+
+class InsertAtLast {
+    public static int[] insertLast(int[] arr, int element) {
+        int[] newArr = new int[arr.length + 1];
+        for(int i = 0; i < arr.length; i++) {
+            newArr[i] = arr[i];
+        }
+        newArr[newArr.length - 1] = element;
+        return newArr;
+    }
+}
+Q13) Insert Element at Middle Position
+class InsertAtMiddle {
+
+public static int[] insertMiddle(int[] arr, int element) {
+        int[] newArr = new int[arr.length + 1];
+        int middle = arr.length / 2;
+        for(int i = 0; i < middle; i++) {
+            newArr[i] = arr[i];
+        }
+        newArr[middle] = element;
+        for(int i = middle; i < arr.length; i++) {
+            newArr[i + 1] = arr[i];
+        }
+        return newArr;
+    }
+}
+Q14) Merge Two Arrays
+import java.util.Arrays;
+
+class Merge {
+    public static int[] mergeArrays(int[] x, int[] y) {
+        int[] newArr = new int[x.length + y.length];
+        int position = 0;
+        for(int element : x) {
+            newArr[position++] = element;
+        }
+        for(int element : y) {
+            newArr[position++] = element;
+        }
+        return newArr;
+    }
+}
+====================================================
+                🔥 FINAL SUMMARY 🔥
+========================================================
+✔ Max → Compare and update
+✔ Modify → Arrays are reference type
+✔ Sort → Nested loop
+✔ Search → Linear scan
+✔ Duplicate → Compare pairs
+✔ Insert → Create new array
+✔ Merge → Create bigger array
+========================================================
