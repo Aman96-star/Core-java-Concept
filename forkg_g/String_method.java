@@ -9,7 +9,7 @@ public class String_method {
 		
 //    String s = new String("Amanv961");
       String u = "        aman23";
-      String s = null; // null pointer exception 
+//      String s = null; // null pointer exception 
 //      System.out.println(s.length()); // length method gives int value by calculate no. of characters
       
       System.out.println(u.isEmpty()); // isEmpty shows fale if string is not empty

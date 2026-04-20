@@ -1,5 +1,4 @@
 package forkg_g;
-import  java.util.*;
 
 public class String_concate {
 

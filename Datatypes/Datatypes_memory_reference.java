@@ -12,7 +12,7 @@ public class Datatypes_memory_reference {
         //m is address : stack
         //memes object data : heap
         m.come();
-        String name ="Aman";
+        // String name ="Aman";
         // stack --> holds name/address
         //heap -->holds value(Aman)
         

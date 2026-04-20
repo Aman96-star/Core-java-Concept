@@ -3,7 +3,7 @@ package forkg_g;
 public class day_1 {
 	public static void main(String[] args)
 	{
-		int[] []x,y[] ;
+		// int[] []x,y[] ;
 		// intialize array 
 		
 //		x[0]=10;

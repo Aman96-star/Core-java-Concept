@@ -19,6 +19,7 @@ public class triangle2 {
 			System.out.println();
 			i=i+1;
 		}
+		o.close();
 	}
 
 }

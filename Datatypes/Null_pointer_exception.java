@@ -1,8 +1,7 @@
-import java.util.Arrays;
 public class Null_pointer_exception {
     public static class Car{
         void modal(){
-            String name =null;
+            String name = "test";
             System.out.println(name.length());
         }
     }

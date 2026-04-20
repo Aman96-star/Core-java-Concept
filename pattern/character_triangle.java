@@ -11,18 +11,18 @@ public static void main(String[]args) {
 	while(i<=n)
 	{
 		int j=1;
-		char p='A';
+//		char p='A';
 		while(j<=n)
 		{    
 			char jthchar = (char)('A'+j-1);
 			
-			System.out.print(p);
+			System.out.print(jthchar);
 			
 			j = j+1;
 		}
 		System.out.println();
 		i = i+1;
-		char p =char(p+1);
+		// p = (char)(p + 1);
 		
 	}
 }

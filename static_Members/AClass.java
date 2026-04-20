@@ -1,4 +1,4 @@
-public class Static_Variables {
+public class AClass {
 
     static class A {
         static int a = 4;

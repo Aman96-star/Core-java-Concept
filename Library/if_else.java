@@ -13,6 +13,7 @@ public class if_else{
             System.out.println(i+" "+(((i-32)*5)/9));
             i=i+Step;
              }
+        o.close();
 		}
 	
 	

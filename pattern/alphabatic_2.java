@@ -6,7 +6,7 @@ public class alphabatic_2 {
 		Scanner o = new Scanner(System.in);
 		int x = o.nextInt();
 		int i =1;
-		int s=1;
+//		int s=1;
 		while(i<=x)
 		{
 			

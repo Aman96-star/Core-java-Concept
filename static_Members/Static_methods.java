@@ -10,9 +10,9 @@ public class Static_methods {
 
     public static void main(String[] args) {
         
-        Js javascript =new Js();
+        // Js javascript =new Js();
         // System.out.println(javascript.vue);
-        javascript.Js_method();
+        Js.Js_method();
         
     }
 }

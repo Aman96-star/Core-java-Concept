@@ -19,6 +19,7 @@ public class alphabet {
 			System.out.println();
 			i=i+1;
 		}
+		o.close();
 	}
 
 }

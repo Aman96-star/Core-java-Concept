@@ -25,7 +25,7 @@ package consistent;
 
 import java.util.Scanner;
 
-public class OccurrencesInHaystack {
+public class day2_removespce {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         int needle = scanner.nextInt();
@@ -43,6 +43,6 @@ public class OccurrencesInHaystack {
                 count++;
             }
         }
-        return count;
-    }
+        return count;
+    }
 }

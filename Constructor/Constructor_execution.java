@@ -14,7 +14,7 @@ public class Constructor_execution{
     }
 
     public static void main(String[] args) {
-        Car cc = new Car();
+        // Car cc = new Car();
         
     
     }

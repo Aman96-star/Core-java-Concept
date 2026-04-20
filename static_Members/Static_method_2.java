@@ -1,4 +1,4 @@
-public public class Static_Variables {
+public class Static_method_2 {
 
     static class Animal {
        int  a=10;
@@ -11,10 +11,8 @@ public public class Static_Variables {
 
     public static void main(String[] args) {
         // System.out.println();
-        Animal am =new Animal();
-        am.show();
+        // Animal am =new Animal();
+        Animal.show();
 
     }
-} {
-    
 }

@@ -6,7 +6,7 @@ public class block_non_static{
    }
 
     public static void main(String[] args) {
-        Car cc =new Car();
+        // Car cc =new Car();
 
     }
 }

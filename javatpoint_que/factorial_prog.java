@@ -1,5 +1,4 @@
 package javatpoint_que;
-import java.util.*;
 
 public class factorial_prog {
 
