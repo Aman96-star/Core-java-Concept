@@ -1,0 +1,146 @@
+here Content of java 
+
+my week 1 Programs :
+
+20. Write a Java program to display object details using
+toString() method.
+21. Write a Java program to compare two objects using the
+equals() method.
+22. Write a program to demonstrate the difference between
+== operator and equals() method.
+23. Write a Java program to find whether two employee
+objects are equal by overriding equals() and hashCode().
+24. Write a Java program to print the runtime class name
+using the getClass() method.
+25. Write a program to clone an object using the clone()
+method.
+26. Write a Java program to demonstrate deep cloning using
+the clone() method.
+27. Write a Java program to override the hashCode()
+method.
+28. Write a program to check the hash codes of two equal
+objects.
+29. Write a Java program to call the finalize() method and
+see when it executes.
+30. Write a Java program too demonstrate shallow copy?
+31. Write a Java program to demonstrate deep copy
+
+-----------------end------------------the ---------topic-----------------
+No parameter- method:
+1. Write a Java method with no parameters that returns
+an integer value.
+2. Write a static method that takes two numbers as
+parameters and returns their sum.
+3. Write a public method that returns a string message.
+4. Write a method that prints a message to the console
+but does not return any value.
+5. Write a method that accepts parameters, performs a
+calculation, and returns the result
+
+
+--
+Programs:
+
+1. Write a non-parameterized method that returns your
+name.
+2. Write a non-parameterized method that returns the
+current year.
+3. Write a non-parameterized method that calculates and
+returns the square of 5.
+4. Write a non-parameterized method that prints a
+welcome message.
+5. Write a non-parameterized method that returns a
+greeting message based on a predefined variable
+
+
+--
+method with parameter:
+
+1. Write a method that accepts two integers and returns
+their sum.
+2. Write a method that accepts a string parameter and
+returns its length.
+3. Write a method that accepts an array of integers and
+returns the maximum element.
+4. Write a method that accepts two numbers and returns
+the larger one.
+5. Write a method that accepts multiple parameters,
+performs a calculation, and returns the result.
+
+--
+Method Returns Void
+
+1. Write a void method that prints “Hello, World!” to the
+console.
+2. Write a void method that accepts a name as a
+parameter and prints a personalized greeting message.
+3. Write a void method that prints numbers from 1 to 10
+using a loop.
+4. Write a void method that accepts an array of integers
+and prints all its elements.
+5. Write a void method that performs a calculation but does
+not return the result.
+
+--
+Method Returns Value
+1. Write a method that returns the factorial of a given
+number.
+2. Write a method that checks if a number is prime and
+returns a boolean value
+3. Write a method that takes a string and returns it in
+reverse order.
+4. Write a method that returns the area of a circle given
+its radius.
+5. Write a method that returns the average of two
+numbers.
+
+--
+Factory Method – Return Type in Java
+1. Write a factory method that returns an object based on
+the input type (e.g., Car, Bike).
+2. Write a factory method that creates and returns
+different shapes (Circle, Rectangle) based on user input.
+3. Write a factory method that returns an instance of a
+subclass depending on a condition.
+4. Write a program demonstrating covariant return types
+using a base class and a subclass.
+5. Write a factory method that returns null when no
+matching object type is found.
+Code Snippet Interview Questions
+
+
+--
+Day-6
+1. Write a program to demonstrate overloading of the main
+method.?
+2. Write a program to call one class’s main from another
+class.
+3. Demonstrate main() calling itself recursively with a base
+case.
+4. Write a program with multiple classes having main() —
+execute each.
+
+
+--
+6. Write a program to find the maximum and minimum
+number from command-line arguments.
+7. Implement a program that reverses the order of
+command-line arguments.
+8. Write a program that counts the number of vowels in all
+command-line arguments.
+9. Write a program to check if a specific argument exists
+among the command-line inputs.
+10. Write a program to sort numbers passed as command-line
+arguments in ascending order.
+
+--
+7. Write a method using varargs to calculate the sum of
+numbers.
+8. Write a method to find the maximum value using
+varargs.
+9. Write a method to concatenate multiple strings using
+varargs.
+10. Write a method to calculate the average of double values
+using varargs.
+11. Write a method to count the number of even numbers
+from varargs input
