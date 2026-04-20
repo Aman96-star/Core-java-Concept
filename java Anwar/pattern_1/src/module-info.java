@@ -1,3 +1,0 @@
-module pattern_1 {
-	
-}
