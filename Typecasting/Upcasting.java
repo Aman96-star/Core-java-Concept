@@ -3,8 +3,8 @@ public class Upcasting {
     
     static class Device{
         void display(){
-
             System.out.println("this a parent class Device");
+
         }
     }
     
@@ -17,14 +17,16 @@ public class Upcasting {
     
     
     public static void main(String[] args) {
-        Smartphone phone =new Smartphone();
+    //     Smartphone phone =new Smartphone();
        
-        Device device =phone;
+    //     Device device =phone;
 
-        device.display();   // work 
-     //   device.call();  // error
+    //     device.display();   // work 
+    //  //   device.call();  // error
         
-
+       Device  sc = new  Smartphone();
+        sc.display();
+    
 
         
 
