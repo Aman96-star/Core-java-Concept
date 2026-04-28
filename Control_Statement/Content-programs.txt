@@ -34,3 +34,4 @@
 12) Check if the digits of a number are in increasing order?( 1234 ✅, 1324 ❌)
 13) Find the frequency of each digit in a number using loops?
 14) Remove all zeros from a number (e.g., 10204 → 124)?
+
