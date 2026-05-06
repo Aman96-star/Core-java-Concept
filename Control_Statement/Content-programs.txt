@@ -9,6 +9,11 @@
 9) Program to check if a number is divisible by both 3 and 5.[x/3==0,x/5==0]
 10) Write a calculator program using switch (add, sub, mul, div).
 
+//A switch statement is used to execute one block of code from multiple options based on a value.
+
+
+//Iteration statements (loops) are used to repeat a block of code multiple times.
+
 1) Write a program to check Armstrong number (e.g., 153 → 13+53+33=153).
 2) How do you check if a number is a Strong Number using loops in Java?
 3) How do you check if a number is a Perfect Number using loops in Java?
