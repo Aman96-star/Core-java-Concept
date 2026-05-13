@@ -1,0 +1,13 @@
+Variable vs Array
+
+Variable → holds a single value
+Array → holds multiple values (contiguous memory)
+Characteristics
+
+1 Homogeneous
+2 Fixed size
+3 Index-based
+4 Contiguous memory
+5 Stored in Heap
+6 Default values
+7 Easy retrieval

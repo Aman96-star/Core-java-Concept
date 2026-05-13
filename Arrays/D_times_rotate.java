@@ -20,10 +20,10 @@ public class  D_times_rotate {
             
         }
         arr[arr.length-1] =temp;
+        
+        
+    }
     System.out.println("replace by one ");
-
-    
-     }
     for(int i=0;i<arr.length;i++){
         System.out.println(arr[i]+" ");
     }
