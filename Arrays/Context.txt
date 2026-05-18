@@ -11,3 +11,13 @@ Characteristics
 5 Stored in Heap
 6 Default values
 7 Easy retrieval
+
+// 2-d array --> int [][] arr=new int [3][5];  
+// 2-d array --> arr[0][1]={1,2}
+// 2-d array --> arr[0][2]={1,3}
+// 2-d array --> arr[0][3]={1,4}
+// 2-d array --> arr[0][4]={1,5}    // this is how intialize array 2d
+// this int arr[] =new arr[N];   //give Default values not not empty array
+
+// 2-d , all rows have same number of column called rectangular arrays
+// 2-d , all rows have different no. of columns
