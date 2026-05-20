@@ -17,7 +17,7 @@ public class EmployeeMain {
         Employee ee = new Employee();
     System.out.println(ee.getSalary());
     
-    ee.setSalary(10000);
+    ee.setSalary(10000);     // set the value 
     System.out.println(ee.getSalary());
 
     }
