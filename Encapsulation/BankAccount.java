@@ -1,11 +1,5 @@
 package Encapsulation;
 
-//  private fields accountNumber, 
-// accountHolderName, and balance.   
-// Provide methods to deposit() and withdraw() money. 
-// Use getters to display the balance. 
-// Ensure withdraw() does not allow balance to go negative.
-
 public class BankAccount {
     private int accountNumber;
     private String accountHolderName;
