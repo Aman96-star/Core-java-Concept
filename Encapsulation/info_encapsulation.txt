@@ -1,0 +1,19 @@
+1) Create a Student class with private fields name, rollNumber, and age. 
+Provide public getters and setters for all fields. 
+Write a program to create a Student object, set its details, and print all information using getters 
+
+2) Create a BankAccount class with private fields accountNumber, 
+accountHolderName, and balance.   
+Provide methods to deposit() and withdraw() money. 
+Use getters to display the balance. 
+Ensure withdraw() does not allow balance to go negative. 
+
+
+3) Create a Product class with private fields productId, productName, and price. 
+Ensure price cannot be negative using the setter. 
+Write a program to create multiple products and display their details. 
+
+4) Create an Employee class with private fields name, baseSalary, and bonus. 
+Write a method calculateTotalSalary() that returns baseSalary + bonus. 
+Ensure bonus is non-negative using setter validation. 
+Print total salary of the employee using getter methods.  

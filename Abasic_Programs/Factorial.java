@@ -1,3 +1,4 @@
+
 import java.util.*;
 public class Factorial {
     // 5 =5*4*3*2*1 =125
