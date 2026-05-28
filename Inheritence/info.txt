@@ -1,0 +1,9 @@
+java does not support a hybrid inheritence (combination of diffrent inheritence type) bcz it cause a ambiguity .
+but it can achieve by Interface 
+
+interface A {}
+interface B extends A{}
+interface C extends A{}
+
+class D implements B,C {}
+
