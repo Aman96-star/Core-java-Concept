@@ -18,9 +18,9 @@ public class Largest_num {
                 secondmax =max;
                 max =arr[i];
             }
-            else if(arr[i] > secondmax && arr[i] != max){
-                        secondmax = arr[i];
-            }
+            // else if(arr[i] > secondmax && arr[i] != max){
+            //             secondmax = arr[i];
+            // }
         }
 
                 System.out.println(secondmax);
