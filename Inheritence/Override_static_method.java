@@ -18,4 +18,5 @@ public class Override_static_method {
         rr.just();
     }
 }
+// asdjas
 // it gives parent only menas it not not override for override u should remove the statci keyword
