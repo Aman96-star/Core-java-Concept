@@ -13,6 +13,8 @@ public class LinkedList_01 {
        list.add(2);  
        System.out.println(list);
        System.out.println("Longest Element : "+list.get(1));
+       list.removeLast();
+        list.addLast(100);
 
        list.remove(1);
        System.out.println(list);
