@@ -1,0 +1,31 @@
+→ Time & Space complexity
+#Arrays-EASY/MEDIUM
+→ Remove Duplicate
+→ Remune Element
+→ Ruose Hong
+→ Best time to Buy and Sell stocks.
+→ Menge shouted soras
+→ Mox consecutive ones
+→Missing Numbers, Sung le number
++ Reccursion-Easy/Medium
+sumi fuist n numbên
+Sum of All numbers in Amay
+→ factorial oy n
+Power of two
+S Recevision Neastondus
+
+[Searching/sorting -Easy/Medium)
+Linear Search
+$ Binary Search
+→Bubble Bearth sort
+→Sebction serch sort
+5 Insertion Search sort
+Strig-Easy / Muden
+→ Muge Sort
+
+Length of Last werd AV
+list & find word's contary chonh A Jewels & Stones
+Most ferequnt vouel & comm
+A split astiring in bulamed stig
+Rentise sing
+A

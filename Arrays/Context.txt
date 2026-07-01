@@ -11,7 +11,7 @@ Characteristics
 5 Stored in Heap
 6 Default values
 7 Easy retrieval
-
+ssk---
 // 2-d array --> int [][] arr=new int [3][5];  
 // 2-d array --> arr[0][1]={1,2}
 // 2-d array --> arr[0][2]={1,3}
