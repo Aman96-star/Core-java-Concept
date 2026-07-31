@@ -12,15 +12,27 @@ public class Practise_4Q {
             arr[i]=o.nextInt();
         }
         // -------------------------------------------
-        int max=0;
-        for(int i=0;i<arr.length;i++){
-            if(arr[i]>max){ //2>1
-                max =arr[i];
-            }
+        // int max=0;
+        // for(int i=0;i<arr.length;i++){
+        //     if(arr[i]>max){ //2>1
+        //         max =arr[i];
+        //     }
 
+        // }
+        // System.out.println("heeeeeee this is a max one : "+max);
+
+        int largest =0;
+        int second =0;
+
+        for(int i=0;i<arr.length;i++){
+            if(arr[i]>largest){
+                
+            }
         }
-        System.out.println("heeeeeee this is a max one : "+max);
+        
+        
     }
-    // retur
+    // return
+
 }
 
