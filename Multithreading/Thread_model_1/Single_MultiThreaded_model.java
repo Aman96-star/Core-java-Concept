@@ -1,6 +1,6 @@
 package Multithreading.Thread_model_1;
 
-// public class Single_MultiThreaded_model{
+// public class Single_MultiThreaded_model{     //single
 //     public static void main(String[] args) {
 //         printnum();
 //         printLetter();
@@ -19,7 +19,7 @@ package Multithreading.Thread_model_1;
     
 // }
 
-public class Single_MultiThreaded_model{
+public class Single_MultiThreaded_model{     //multiple
     public static void main(String[] args) {
         Thread t1 = new Thread(() -> {
             for (int i = 1; i <= 5; i++) System.out.println(i);
