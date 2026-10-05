@@ -1,0 +1,33 @@
+Two Pointer technique is a DSA approach where we use two variables (pointers) to keep track of two positions in an array or string.
+Instead of using extra arrays or repeatedly scanning elements, we move the two pointers toward each other or in the same direction.
+1. Basic idea
+For an array:
+-------------------------------
+[10, 20, 30, 40, 50]
+ ↑              ↑
+left           right
+
+-------------------------------
+
+int left = 0;
+int right = arr.length - 1;
+
+------------------------------
+
+Step 1:
+[10, 20, 30, 40, 50]
+ ↑              ↑
+left           right
+
+Step 2:
+[50, 20, 30, 40, 10]
+     ↑        ↑
+    left     right
+
+Step 3:
+[50, 40, 30, 20, 10]
+         ↑  ↑
+        left right
+
+-------------------------------
+
