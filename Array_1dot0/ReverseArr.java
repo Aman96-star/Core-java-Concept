@@ -27,7 +27,7 @@ public class ReverseArr {
          for (int i = 0; i < arr1.length; i++) {
             System.out.println(arr1[i]);
         }
-
+// to  th array at the next window 
 
     }
 }

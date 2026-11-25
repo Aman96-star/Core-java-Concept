@@ -1,4 +1,4 @@
-package Exception_handling;
+package Exception_handling_pgm;
 
 public class Throw {
 
